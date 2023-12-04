@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión y Registrarse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../img/logo.ico" alt="logo">
+                </a>
+            </div>
+            <nav>
+                <div class="nav">
+                    <a href="index.html">INICIO</a>
+                    <a href="">SHOP</a>
+                    <a href="">AYUDA</a>
+                    <a href="">CUENTA</a>
+                    <a href="">PRODUCTOS</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div id="container">
+        <div id="loginForm">
+            <h2>Iniciar Sesión</h2>
+            <input type="email" id="loginEmail" placeholder="Correo Electrónico">
+            <input type="password" id="loginPassword" placeholder="Contraseña">
+            <button onclick="iniciarSesion()">Iniciar Sesión</button>
+        </div>
+        <hr>
+        <div id="registerForm">
+            <h2>Registrarse</h2>
+            <input type="email" id="registerEmail" placeholder="Correo Electrónico">
+            <input type="password" id="registerPassword" placeholder="Contraseña">
+            <input type="password" id="confirmPassword" placeholder="Confirmar Contraseña">
+            <button onclick="registrarUsuario()">Registrarse</button>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../img/logo.ico" alt="logo">
+                </a>
+            </div>
+            <div class="footer">
+                <div class="caja-3">
+                    <a href="">INICIO</a>
+                    <a href="">SHOP</a>
+                    <a href="">AYUDA</a>
+                </div>
+            </div>
+            <div class="caja-3">
+                <h4>Contactános</h4>
+                <p>ventas@toallitascoco.com.ar</p>
+                <p>Boedo, CABA</p>
+                <div class="caja-3">
+                    <h4>Encontrános en</h4>
+                    <div class="fotos">
+                        <a href="https://www.instagram.com/toallitas.coco/">
+                            <img src="../img/ig-logo.webp" alt="instagram" />
+                        </a>
+                    </div>
+                    <div class="fotos">
+                        <a href="https://www.facebook.com/profile.php?id=100064220581024">
+                            <img src="../img/logo-facebook-gris.png" alt="facebook" />
+                        </a>
+                    </div>
+                </div>
+                <p>@ TOALLITAS.COCO-2023, todos los derechos reservados. Para reclamos <a
+                        href="https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario">ingrese aquí</a>
+                </p>
+            </div>
+    </footer>
+
+    <script src="mian.js"></script>
+</body>
+</html>
